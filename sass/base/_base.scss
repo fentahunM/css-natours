@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  box-sizing: inherit;
+}
+html {
+  //  font-size: 10px; this does not allow users to change font size in the browser(even if they change the font size it is not reflected
+  // defines what 1rem is
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+}
